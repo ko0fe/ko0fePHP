@@ -1,0 +1,114 @@
+html,
+body {
+    height: 100%;
+    background: #00796a;
+}
+
+.greetings,
+p,
+h1,
+h2 {
+    font-family: 'Comic Sans MS', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #E6E6E6;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: #CED8F6;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Comic Sans MS', serif;
+    font-size: 1rem;
+    color: #848484;
+    font-weight: 1000;
+}
+
+.logo img {
+    width: 1900px;
+    height: 100px;
+    margin-left: 0px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    margin-top: 100px;
+    padding-left: 30px;
+    flex-basis: 200px;
+}
+
+.knowledge {
+    display: flex;
+    justify-content: right;
+}
+
+.article {
+    margin-top: 2em;
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #005a00;
+    text-align: center;
+}
+
+.text {
+    font-size: 1rem;
+    color: #585858;
+}
+
+h2 {
+    text-align: center;
+    color: #005a00;
+}
+
+h1 {
+    font-family: 'Monotype Corsiva', serif;
+    color: #000000;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.footer {
+    background-color: #42ff1d;
+    flex: 2 0 auto;
+}
